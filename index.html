@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Law Luminary - Legal Aid Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+            },
+            colors: {
+              legal: {
+                50: '#f0f4f8',
+                100: '#d9e2ec',
+                200: '#bcccdc',
+                300: '#9fb3c8',
+                400: '#829ab1',
+                500: '#627d98',
+                600: '#486581',
+                700: '#334e68',
+                800: '#243b53',
+                900: '#102a43',
+              }
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "recharts": "https://esm.sh/recharts@^3.5.1",
+    "react-markdown": "https://esm.sh/react-markdown@^10.1.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-900 antialiased">
+    <div id="root"></div>
+  </body>
+</html>

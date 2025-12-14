@@ -1,0 +1,8 @@
+{
+  "name": "Law Luminary",
+  "description": "AI-powered legal aid assistant for Texas plaintiff-side firms. Features role-based assistance, case intake, and legal research support.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
